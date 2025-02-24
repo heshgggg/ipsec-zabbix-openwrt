@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>7.2</version>
+    <template_groups>
+        <template_group>
+            <uuid>a571c0d144b14fd4a87a9d9b2aa9fcd6</uuid>
+            <name>Templates/Applications</name>
+        </template_group>
+    </template_groups>
+    <templates>
+        <template>
+            <uuid>5bfb4abbb77b4e87b41a83582af12920</uuid>
+            <template>IPsec</template>
+            <name>IPsec</name>
+            <groups>
+                <group>
+                    <name>Templates/Applications</name>
+                </group>
+            </groups>
+            <items>
+                <item>
+                    <uuid>8505646db12d48ff8c61246aca8a95b4</uuid>
+                    <name>IPsec Connection</name>
+                    <key>ipsec.connections</key>
+                    <delay>10s</delay>
+                </item>
+                <item>
+                    <uuid>14e46c5d09364a11bfea4f9676aec478</uuid>
+                    <name>IPsec User Count</name>
+                    <key>ipsec.usercount</key>
+                    <delay>10s</delay>
+                </item>
+                <item>
+                    <uuid>ff12222511d84287ba71926b2a6cdc80</uuid>
+                    <name>IPsec User LAN IP</name>
+                    <key>ipsec.userlanip</key>
+                    <delay>10s</delay>
+                    <value_type>CHAR</value_type>
+                </item>
+                <item>
+                    <uuid>334f6eee4a6a42c69b1854642a820615</uuid>
+                    <name>IPsec User WAN IP</name>
+                    <key>ipsec.userwanip</key>
+                    <delay>10s</delay>
+                    <value_type>CHAR</value_type>
+                </item>
+            </items>
+        </template>
+    </templates>
+</zabbix_export>
