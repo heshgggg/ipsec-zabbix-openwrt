@@ -1,5 +1,4 @@
 # ipsec-zabbix-openwrt
-The scripts are intended for monitoring ipsec in OpenWrt router
 
 ![data](img_1.png)
 
